@@ -2050,7 +2050,7 @@
                             row = that.data[index],
                             value = row[field];
 
-                        func.apply(this, [e, value, row, index]);
+                        func.apply(this, [e, value, row, index, field]);
                     });
                 });
             }
